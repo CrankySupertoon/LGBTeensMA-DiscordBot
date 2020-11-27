@@ -1,0 +1,26 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "colorlesswoodenradius"
+version = "0.1.0"
+[tool.poetry.dependencies]
+Flask = "^1.1"
+Pillow = "^7.0"
+config = "^0.4.2"
+"discord.py" = "^1.5.1"
+jishaku = "^1.18"
+"nekos.py" = "^1.0"
+python = "^3.8"
+python-box = "^4.2"
+scbw-mq = "^0.2.2"
+google-api-python-client = "^1.12.8"
+python-twitch-client = "^0.6.0"
+certifi = "^2020.11.8"
+requests = "^2.25.0"
+dadjokes = "^1.3.2"
+[tool.poetry.dev-dependencies]
